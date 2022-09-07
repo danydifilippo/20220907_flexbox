@@ -332,3 +332,29 @@ footer a {
     }
 }
 
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.clearfix {
+    padding-right: 1.8em;
+}
+
+
+article {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.news_fix {
+    position: sticky;
+    top: 250px;
+}
+
+
+
