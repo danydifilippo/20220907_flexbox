@@ -369,7 +369,7 @@ footer a {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            max-height: 101em;
+            max-height: 120em;
             flex-flow: inherit;
             align-content: space-between;
             font-size: small;
